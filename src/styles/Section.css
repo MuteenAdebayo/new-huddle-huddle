@@ -1,0 +1,116 @@
+
+.grow-section{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  height: 40%;
+  border: 2px;
+  justify-content: space-around;
+  gap: 10px;
+  box-shadow:0 2px 5px #e7dddd;
+  border-radius: 15px;
+  margin-top: 2em;
+  padding: 1em 25px;
+}
+section{
+  margin:5em 5em 10em;
+}
+.grow-only{
+width: 400px;
+align-self: center;
+}
+.grow-only h4{
+font-size: large;
+}
+
+.text-img{
+  max-width: 100%;
+  width:250px;
+  padding: 20px 0;
+}
+.another-img{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px;
+  gap: 10px;
+  justify-content: space-around;
+  box-shadow: 0 2px 5px #e7dddd;
+  border-radius: 15px;
+  margin-top: 2em;
+  padding: 2em 25px;
+}
+.text-img{
+  max-width: 100%;
+  width: 250px;
+  padding: 20px 0;
+}
+.flow-only{
+  width:400px;
+  align-self:center;
+}
+.flow-only h4{
+  font-size: large;
+}
+.flow-only p{
+  color: black;
+}
+.below-img{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  border: 2px;
+  gap: 10px;
+  justify-content: space-around;
+  box-shadow: 0 2px 5px #e7dddd;
+  margin-top: 2em;
+  padding: 2em 25px;
+}
+.user-only{
+  width: 400px;
+  align-self: center;
+}
+.user-only h2{
+  font-size: larger;
+}
+.user-only p{
+  color: black;
+}
+@media only screen and (max-width:700px){
+.grow-section{
+  justify-content: space-around;
+  gap: 10px;
+}
+section{
+  margin: 6em 10px;
+}
+.grow-only{
+  text-align: center;
+  padding: 0;
+}
+.grow-only p{
+  padding: 0 35px;
+}
+.another-img{
+  justify-content: center;
+  gap: 10px;
+}
+.flow-only{
+text-align: center;
+padding: 0;
+}
+.flow-only p{
+  padding:0 35px;
+}
+.below-img{
+  justify-content: space-around;
+  gap: 1em;
+}
+.user-only{
+  text-align: center;
+  padding: 0;
+}
+.user-only p{
+  padding: 0 35px;
+}
+}

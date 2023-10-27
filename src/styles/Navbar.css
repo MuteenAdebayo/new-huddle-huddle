@@ -1,0 +1,107 @@
+
+*,*::after  *::before{
+    margin: 0;
+    padding: 0;
+}
+.bgimage{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-color:#f0f8ff;
+} 
+.navbar{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5em;
+   padding-top: 30px;
+}
+.logo{
+    width: 170px;
+}
+.btn{
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    
+}
+.btn:hover{
+    background-color: rgb(254, 82, 192);
+    color: #ffffff;
+    width: 150px;
+    cursor: grab;
+    transition: 1s;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3em;
+    margin: 0 10px;
+    position: relative;
+}
+.Buildcom{
+    width: 400px;
+    align-self: inherit;
+ 
+}
+.section .Buildcom h3{
+    font-size:2em;
+}
+.section .Buildcom p{
+color: #000f;
+}
+.mockup{
+    max-width: 100%;
+    width: 640px;
+    padding: 10px 0;
+    display: flex;
+    margin-top: 20px;
+} 
+.butin {
+width: 180px;
+height: 40px;
+background-color: #fe52c0;
+border: 1px solid #fe52c0;
+border-radius: 20px;
+font-weight: 700;
+color: #ffff;
+border:none;
+}
+.butin:hover{
+    background-color: rgb(64, 155, 36);
+    width:250px ;
+    cursor: grab;
+}
+@media only screen and (max-width:700px){
+    .bgimage{
+        height: 50%;
+    }
+.navbar{
+    margin: 20px 10px;
+}
+.navbar .logo{
+width: 100px;
+}
+.btn{
+    width:100px;
+}
+.section{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.section .Buildcom p{
+    padding: 1px 35px;
+}
+ .butin:hover{
+    cursor:pointer;
+    background-color:#fe52c0 ;
+ } 
+
+}
